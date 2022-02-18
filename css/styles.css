@@ -574,12 +574,16 @@ footer {
     --spacer: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     justify-self: end;
     text-align: left;
     grid-column: 3;
     grid-row: 1;
     padding: 0;
+  }
+
+  .metrics > section + section {
+    margin-top: 3.9375rem;
   }
 
   /* testimonial - desktop */
